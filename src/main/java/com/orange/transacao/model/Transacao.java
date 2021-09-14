@@ -40,4 +40,24 @@ public class Transacao {
         this.cartao = cartao;
         this.estabelecimento = estabelecimento;
     }
+
+    public String getId() {
+        return id;
+    }
+
+    public BigDecimal getValor() {
+        return valor;
+    }
+
+    public LocalDateTime getEfetivadaEm() {
+        return efetivadaEm;
+    }
+
+    public Cartao getCartao() {
+        return cartao;
+    }
+
+    public Estabelecimento getEstabelecimento() {
+        return estabelecimento;
+    }
 }
