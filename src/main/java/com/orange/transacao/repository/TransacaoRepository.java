@@ -1,14 +1,11 @@
 package com.orange.transacao.repository;
 
-import com.orange.transacao.config.kafka.dto.EventoDeTransacao;
 import com.orange.transacao.config.kafka.dto.TransacaoResponse;
 import com.orange.transacao.model.Transacao;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
-
-import java.util.List;
 
 public interface TransacaoRepository extends JpaRepository<Transacao,String> {
 
